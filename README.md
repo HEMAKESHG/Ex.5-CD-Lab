@@ -13,6 +13,8 @@ To write a YACC program to recognize the grammar anb where n>=10.
 6.	Compile the yacc program with yacc compiler to produce output file as y.tab.c. eg $ yacc –d arith_id.y
 7.	Compile these with the C compiler as gcc lex.yy.c y.tab.c
 8.	Enter a string as input and it is identified as valid or invalid.
+
+# PROGRAM:
 ### anb.l
 ```
 %{
